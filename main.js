@@ -211,7 +211,7 @@ function getPieces() {
             ];
 }
 
-    function updateBoard() {
+function updateBoard() {
     var pieceDom = svg.selectAll(".piece")
         .data(pieces, function(d) { return d.id; });
 
